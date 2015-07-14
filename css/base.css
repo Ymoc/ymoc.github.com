@@ -1,0 +1,174 @@
+@charset "gb2312";
+html,div,section,header,footer,ul,ol,li,body,a{
+    margin: 0;
+    padding: 0;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none
+}
+
+img {
+    border: 0;
+}
+
+body {
+    font: 17px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+    background: #226039 url(../images/bg.jpg) center 0 scroll no-repeat;
+    color: black;
+}
+
+.blank {
+    height: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    clear: both
+}
+
+/*topnav*/
+
+.topNav {
+    height: 50px;
+    color: #000;
+    text-align: center;
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    box-shadow: #333 0px 2px 2px;
+}
+
+.topNav a {
+    color: #000;
+    font-weight: bold;
+    margin: 0 5px
+}
+
+/* header */
+
+header {
+    width: 100%;
+    margin: auto;
+    border-bottom: #3c7a48 0px solid;
+}
+
+.quotes {
+    width: 1000px;
+    position: relative;
+    margin: 60px auto 120px auto;
+    font-size:17px;
+}
+
+.quotes p {
+    text-shadow: #246640 1px 1px 1px;
+    color: #fff;
+    width: 330px;
+    line-height: 26px;
+}
+
+
+/* nav */
+
+#nav {
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 17px;
+    background: rgb(56, 134, 72);
+    filter:alphy(opacity=80);/*IE滤镜，透明度80%*/
+    -moz-opacity:0.8; /*Firefox私有，透明度80%*/
+    opacity:0.8;/*其他，透明度80%*/
+    text-align: center;
+    position: relative;
+    border-bottom: #559765 1px solid;
+}
+
+#nav ul {
+    width: 1000px;
+    margin: 0 auto;
+    background: url(../images/heart.png) left no-repeat;
+    overflow: hidden;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding:0 20px;
+    text-align: center;
+    height:50px;
+}
+
+#nav ul li a {
+    color: #fff;
+}
+#nav ul li:hover{
+    background-color: #6FC15B;
+}
+
+.colorBar {
+	margin-top:-2px;
+    background: #032e13;
+    height: 56px;
+    line-height: 56px;
+}
+#githubLogo{
+	display: block;
+	
+	position:absolute;
+	top:0;
+}
+#githubLogo img{
+	width:10px;
+    filter: alpha(opacity=30);/* IE */
+    -moz-opacity: 0.3;/* Moz + FF */
+    opacity: 0.3;
+}
+.textTittle {
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 30px;
+    color: #FFF;
+    width:1000px;
+    margin:0 auto;
+    text-shadow:4px 4px 4px yellow;
+
+}
+/*main*/
+.main{
+    
+	height:500px;
+    background-color: #A2D674;
+}
+.wrap{
+    width:1000px;
+    height:500px;
+    margin:0 auto;
+    background-color: #A2D674;
+    
+}
+
+
+/*模块header*/
+#iframe{
+	width:100%;
+	height:285px;
+	margin-bottom: -4px;
+}
+#toTop{
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    width:50px;
+    height:50px;
+    position: fixed;
+    right:0;
+    bottom:0;
+    background-color: #ED632F;
+}

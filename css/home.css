@@ -1,0 +1,49 @@
+/* CSS Document */
+
+._blank {
+    position: relative;
+    display:block;
+    right: 0;
+    top: 60px;
+    background: url(../images/ypBG.png) no-repeat;
+    width: 173px;
+    height: 175px;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+}
+#vertical{
+        width: 173px;
+    height: 175px;
+    /*position: relative;*/
+    float: right;
+    margin-top: -70px;
+}
+.front {
+    width:136px;
+    margin: 22px 0 0 17px;
+    display: block;
+}
+
+.info{
+    width:136px;
+    margin: 22px 0 0 -4px;
+    display: none;
+    position: absolute;
+    left:-136px;
+}
+#blog{
+	color:gray;
+}
+a#blog:hover{
+	color:red;
+}
+/*section*/
+section{
+    width: 1000px;
+    height:500px;
+    margin:0 auto;
+    color:black;
+    font-size:17px;
+}
+

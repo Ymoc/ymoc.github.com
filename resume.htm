@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <a name="top" id="top"></a>
+    <a href="#top" target="_self" id="toTop">返回顶部</a>
+    <div class="topNav">
+        <!--nav begin-->
+        <div id="nav">
+            <a href="https://github.com/Ymoc/ymoc.github.com" id="githubLogo"><img src="images/github1.png" alt="github网站" /></a>
+            <ul>
+                <li><a href="index.htm">个人信息</a></li>
+                <li><a href="resume.htm">简历</a></li>
+                <li><a href="project.htm">项目</a></li>
+                <li><a href="#">模块demo</a></li>
+                <li><a href="#">留言板</a></li>
+            </ul>
+        </div>
+        <!--nav end-->
+    </div>
+    <Iframe src="Head.htm" id="iframe" scrolling="no" frameborder="0">
+    </iframe>
+    <div class="main">
+        <div id="downResume">
+            <a href="">简历下载PDF</a></br>
+            <a href="">简历下载Word</a>
+        </div>
+        <section>ds</section>
+    </div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script>
+    $(function() {
+        $("#githubLogo").animate({
+            left: "80px"
+        }, 1000);
+        $("#githubLogo>img").animate({
+            width: "50px",
+            opacity: "1"
+        });
+    })
+    </script>
+</body>
+
+</html>

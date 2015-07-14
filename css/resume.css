@@ -1,0 +1,13 @@
+
+#downResume{
+	width:150px;
+	height:150px;
+	font-size: 17px;
+	float:left;
+	text-align: center;
+	margin-top:20px;
+	line-height: 35px
+}
+#downResume a{
+	color:black;
+}

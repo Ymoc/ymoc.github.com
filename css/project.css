@@ -1,0 +1,30 @@
+body{
+
+}
+#leftBar{
+	float:left;
+	width:20%;
+	height:100%;
+	font-size:18px;
+	line-height: 30px;
+	border-width: 0 4px 0 0;
+	border-style: solid;
+	-moz-border-right-colors: red #C7DED6 ;
+}
+#rightBar{
+	width:80px;
+	height:100%;
+	float:right;
+}
+#leftBar>menu{
+position: relative;
+}
+#leftBar>menu li{
+	text-shadow: #246640 1px 1px 1px;
+	width:100px;
+	position: relative;
+	cursor: pointer;
+}
+#leftBar>menu li:hover{
+	color:red;
+}
